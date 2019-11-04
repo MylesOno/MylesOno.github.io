@@ -1,30 +1,83 @@
+*{
+    font-family:verdana;
+}
+
 h1{
     text-align:center;
 }
 
+p{
+  font-size:20px;
+  color:#644709;
+}
+
+li{
+	font-size:20px;
+}
+
 .title{
-  font-size:40px;
-  padding: 35px;
+  font-size:45px;
+  padding:35px;
+  color:#473308;
 }
 
 .about{
     display:grid;
     grid-template-columns: 40% 60%;
+    color:#473308;
   }
 
-  .determinants{
+.determinants{
     display:grid;
     grid-template-columns: 60% 40%;
   }
 
-  .centerImage{
-    text-align:center;
-    height: 70%;
-    width: 70%;
-    border: 3px solid black;
-    border-radius: 15px;
-}
-
 #centerTextBlock{
   align-content:center;
+}
+
+#container{
+	padding-left:200px;
+	padding-right:200px;
+	padding-bottom:200px;
+}
+
+#janeImage{
+	height: 600px;
+}
+
+#detImage{
+	height:500px;
+}
+
+#detDescript{
+	vertical-align:"middle";
+}
+
+#view{
+	background:#d7e1e7;
+	border: 5px solid #644709;
+  border-radius: 30px;
+  padding:75px;
+}
+
+img{
+	text-align:center;
+    border: 5px solid #120438;
+    border-radius: 25px;
+	vertical-align:middle;
+}
+
+p{
+	display:inline;
+}
+
+#mainBody{
+	background-image:url("../images/teal.jpg");
+	background-size: 100% 100%;
+}
+
+#nightContainer{
+  background-image:url("../images/stars.jpeg");
+  background-size: 100% 100%;
 }

@@ -3,24 +3,28 @@
 <link href="css/sidebar.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 
-<body onload="openAbout()">
+<body id="mainBody" onload="openAbout()">
     <div id="sidebar">
         <div class="toggle-btn" onclick="toggleSidebar()">
+            <p>MENU</p>
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <ul>
-            <li id="about" onclick="openAbout()">About</li>
-            <li id ="social" onclick="openSocial()">Social Determinants of Health</li>
-            <li id ="more" onclick="openMore()">More</li>
+        <ul id="menu">
+            <li id="about" onclick="openAbout()" class="menu__link">About</li>
+            <li id ="pres" onclick="openPres()" class="menu__link">Presentations and Community Service</li>
+            <li id ="nightOut" onclick="openNightOut()" class="menu__link">Therapists' Night Out</li>
+            <li id ="social" onclick="openSocial()" class="menu__link">Social Determinants of Health/Selected Resources</li>
+            <li id ="selfHelp" onclick="openSelfHelp()" class="menu__link">Resources for Self Help</li>
         </ul>
     </div>
 
     <h1 align="center" class="title">Jane Zill L.I.C.S.W.</h1>
 
-    <iframe id="view" height="100%" width="100%" frameborder="0">
-        <p>Not supported<p>
-    </iframe>
-
+    <div id="container">
+        <iframe id="view" height="100%" width="100%" frameborder="0">
+            <p>Not supported<p>
+        </iframe>
+    </div>
 </body>
