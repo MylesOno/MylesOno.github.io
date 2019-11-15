@@ -43,7 +43,7 @@ li{
 }
 
 #janeImage{
-	height: 600px;
+	height: 60%;
 }
 
 #detImage{
@@ -63,8 +63,8 @@ li{
 
 img{
 	text-align:center;
-    border: 5px solid #120438;
-    border-radius: 25px;
+  border: 5px solid #120438;
+  border-radius: 25px;
 	vertical-align:middle;
 }
 
@@ -78,6 +78,19 @@ p{
 }
 
 #nightContainer{
-  background-image:url("../images/stars.jpeg");
+  background-image:url("../images/greenstars.jpeg");
   background-size: 100% 100%;
+}
+
+.selfhelp{
+  line-height:1.7;
+}
+
+.TNO{
+  color:#d3c832;
+  padding:50px;
+}
+
+.TNOtitle{
+  color:#ddaf17;
 }
