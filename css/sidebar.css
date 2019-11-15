@@ -42,5 +42,9 @@
 }
 
 #menulabel{
-    color:#f599e1;
+    color:#ebdf3e;
+}
+
+.selected{
+    color:rgba(185, 15, 15, 0.9);
 }
