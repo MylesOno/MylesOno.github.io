@@ -9,7 +9,7 @@ function openAbout(){
     
     <div class="about">
 
-    <div>
+    <div id="picDiv">
            <img id="janeImage" width="70%" src="images/headshot2.jpg">
     </div>
     
