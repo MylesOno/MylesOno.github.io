@@ -36,12 +36,6 @@ li{
   align-content:center;
 }
 
-#container{
-	padding-left:200px;
-	padding-right:200px;
-	padding-bottom:200px;
-}
-
 #detImage{
 	height:60%;
 }
@@ -53,8 +47,12 @@ li{
 #view{
 	background:#d7e1e7;
 	border: 5px solid #644709;
-  	border-radius: 30px;
-  	padding:75px;
+  border-radius: 30px;
+  padding:40px;
+}
+
+#picDiv{
+  padding-right:20px;
 }
 
 #janeImage{
