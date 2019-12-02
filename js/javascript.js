@@ -10,7 +10,7 @@ function openAbout(){
     <h1 align="center" id="about"><b>About</b></h1>
 
     <div>
-            <center><img id="janeImage" style="height:500px" src="images/headshot2.jpg"></center>
+            <img id="janeImage" height="600" src="images/headshot2.jpg">
     </div>
     
     <div>

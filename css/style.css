@@ -53,14 +53,18 @@ li{
 #view{
 	background:#d7e1e7;
 	border: 5px solid #644709;
-  border-radius: 30px;
-  padding:75px;
+  	border-radius: 30px;
+  	padding:75px;
+}
+
+#janeImage{
+	height:60;
 }
 
 img{
 	text-align:center;
-  border: 5px solid #120438;
-  border-radius: 25px;
+  	border: 5px solid #120438;
+  	border-radius: 25px;
 	vertical-align:middle;
 }
 
