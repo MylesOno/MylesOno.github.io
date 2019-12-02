@@ -10,7 +10,7 @@ function openAbout(){
     <div class="about">
 
     <div>
-           <img id="janeImage" width="400" src="images/headshot2.jpg">
+           <img id="janeImage" width="70%" src="images/headshot2.jpg">
     </div>
     
     <div>
