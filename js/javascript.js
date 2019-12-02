@@ -4,10 +4,10 @@ function toggleSidebar(){
 }
 
 function openAbout(){
-    document.getElementById("view").innerHTML = `<div class="about">
-
-    <br><br><br>
+    document.getElementById("view").innerHTML = `
     <h1 align="center" id="about"><b>About</b></h1>
+    
+    <div class="about">
 
     <div>
            <img id="janeImage" width="400" src="images/headshot2.jpg">
