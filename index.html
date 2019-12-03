@@ -6,36 +6,47 @@
 
     <title>Jane Zill L.I.C.S.W.</title>
     <meta name="Jane Zill Therapy">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
-    <link href="css/sidebar.css" rel="stylesheet" type="text/css">
+    <link href="css/nav.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-
 
 </head>
 
-<body id="mainBody" onload="openAbout()">
-    <div id="sidebar">
-        <div class="toggle-btn" onclick="toggleSidebar()">
-            <p id="menulabel">MENU</p>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul id="menu">
-            <li id="about" onclick="openAbout()" class="menu__link">About</li>
-            <li id ="pres" onclick="openPres()" class="menu__link">Presentations and Community Service</li>
-            <li id ="nightOut" onclick="openNightOut()" class="menu__link">Therapists' Night Out</li>
-            <li id ="social" onclick="openSocial()" class="menu__link">Social Determinants of Health/Selected Resources</li>
-            <li id ="selfHelp" onclick="openSelfHelp()" class="menu__link">Resources for Self Help</li>
-        </ul>
+<body onload="openAbout()">
+    
+    <!--MENU-->
+    <div class="menuContainer center">
+        <nav class="menu">
+            <div class="menu__right">
+                <ul class="menu__list">
+                    <li class="menu__list-item" onclick="openAbout()"><a id="aboutButton" class="menu__link menu__link--active" href="#">About</a></li>
+                    <li class="menu__list-item" onclick="openPres()"><a id="presButton" class="menu__link" href="#">Presentations and Community Service</a></li>
+                    <li class="menu__list-item" onclick="openNightOut()"><a id="nightButton" class="menu__link" href="#">Therapists' Night Out</a></li>
+                    <li class="menu__list-item" onclick="openSocial()"><a id="socButton"class="menu__link" href="#">Social Determinants of Health/Selected Resources</a></li>
+                    <li class="menu__list-item" onclick="openSelfHelp()"><a id="helpButton" class="menu__link" href="#">Resources for Self Help</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
-    <h1 align="center" class="title">Jane Zill L.I.C.S.W.</h1>
 
-    <div id="view">
+    <div class="content">
+
+        <h1 align="center" class="title">Jane Zill L.I.C.S.W.</h1>
+
+        <div id="view"></div>
 
     </div>
+
+    <!--contact-->
+    <div id="contact">
+        <p>
+            <br>My fee is $130.00 a session unless I have a contract with your health insurance company.  I accept the following insurances, among others: Blue Cross/Blue Shield, Harvard Pilgrim, Cigna, and Medicare. I am willing to discuss a sliding fee in certain circumstances.<br>
+            <br>
+            <b>Please do not hesitate to contact me if you have questions: 603-436-4111</b>
+            <br><br>
+        </p>
+    <div>
 
 </body>
 

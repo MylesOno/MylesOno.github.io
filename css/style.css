@@ -8,7 +8,7 @@ h1{
 
 p{
   font-size:20px;
-  color:#644709;
+  color:rgba(5, 5, 56, 0.952);
 }
 
 li{
@@ -18,13 +18,17 @@ li{
 .title{
   font-size:45px;
   padding:35px;
-  color:#473308;
+  color:rgba(27, 15, 0, 0.836);
+}
+
+#container{
+    grid-template-rows: 80% 20%;
 }
 
 .about{
     display:grid;
     grid-template-columns: 40% 60%;
-    color:#473308;
+    color:black;
   }
 
 .determinants{
@@ -45,10 +49,11 @@ li{
 }
 
 #view{
-	background:#d7e1e7;
-	border: 5px solid #644709;
+	background-color: rgba(245, 245, 245, .45);
+  border: 5px solid;
+  border-color:rgba(59, 32, 1, .85);
   border-radius: 30px;
-  padding:40px;
+  padding:75px;
 }
 
 #picDiv{
@@ -61,8 +66,7 @@ li{
 
 img{
 	text-align:center;
-  	border: 5px solid #120438;
-  	border-radius: 25px;
+  border-radius: 25px;
 	vertical-align:middle;
 }
 
@@ -70,13 +74,30 @@ p{
 	display:inline;
 }
 
-#mainBody{
-	background-image:url("../images/teal.jpg");
-	background-size: 100% 100%;
+body{
+	background-image:url("../images/goldenrods.jpg");
+  background-size: 100% 100%;
+}
+
+#contact{
+  padding:75;
+  background-color:rgb(2, 2, 37);
+  text-align:center;
+  border-radius: 15px;
+	vertical-align:middle;
+}
+
+#contact p{
+  color:white;
+  padding:50px;
+}
+
+.content{
+  padding:50px;
 }
 
 #nightContainer{
-  background-image:url("../images/greenstars.jpeg");
+  background-image:url("../images/NightSky.jpg");
   background-size: 100% 100%;
 }
 
@@ -85,10 +106,15 @@ p{
 }
 
 .TNO{
-  color:#d3c832;
+  color:#dfddc6;
+  font-size:25px;
   padding:50px;
 }
 
+.TNO li{
+  font-size:25px;
+}
+
 .TNOtitle{
-  color:#ddaf17;
+  color:#dfddc6;
 }
