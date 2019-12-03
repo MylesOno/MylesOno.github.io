@@ -2,6 +2,9 @@ function openAbout(){
     document.getElementsByClassName("menu__link--active")[0].classList.remove("menu__link--active");
     document.getElementById("aboutButton").classList.add("menu__link--active");
     document.getElementById("view").innerHTML = `
+
+    <h1 align="center" class="title">Jane Zill L.I.C.S.W.</h1>
+    <br>
     <h1 align="center" id="about"><b>About</b></h1>
     
     <div class="about">
@@ -13,7 +16,7 @@ function openAbout(){
     <div>
             <p>
             <br>Danish philosopher, Soren Kierkegaard, claimed, "Life can only be understood backwards but must be lived forwards."  I believe the "best" therapy takes advantage of our natural impulse to seek meaning by looking backward and forward, as well as inward and out, in service of a preferred future and a preferred self.<br>
-            <br>I am a Licensed Independent Clinical Social Worker (L.I.C.S.W.) and Certified Clinical Trauma Professional with over 30 years of experience working with individuals and families impacted by illness, disability, and psychosocial and traumatic stress.  I earned a master's degree from the University of Wisconsin-Madison, where I also earned a B.A. in philosophy and a Certificate in Women's Studies. I'm also a clinical member of the American Diabetes Association.<br>
+            <br>I am a Licensed Independent Clinical Social Worker (L.I.C.S.W.) and Certified Clinical Trauma Professional with over 30 years of experience working with individuals and families impacted by illness, disability, and psychosocial and traumatic stress.  I earned a master's degree from the University of Wisconsin-Madison, where I also earned a B.A. in philosophy and a Certificate in Women's Studies. I'm a clinical member of the American Diabetes Association.<br>
             <br>A client's right to self-determination is a core value within the social work profession. I value collaborative therapeutic relationships.<br>
             <br>I welcome the use of story, intuition, art, dreams, and history in therapy, and recognize that community resources are often helpful. I offer EMDR (Eye Movement Desensitization and Reprocessing), clinical hypnosis, and relaxation techniques to treat the effects of traumatic and chronic stress, and I incorporate life-span development, family systems, and social context perspectives. <br>
             <br>Scientific research confirms the importance of a 'person-in-environment' approach when understanding the origins of human problems, as up to 70% of the determinants of health are outside of an individual's control.<br>
@@ -87,18 +90,27 @@ function openNightOut(){
 
     <div class="TNO">
         <p class="TNO">Therapists' Night Out (TNO) is a free peer supervision, support, and educational group for mental health professionals that's been meeting eight times a year since 2014.
-        <br><br>
-        Meetings typically include socializing, a presentation and discussion led by a colleague, and case consultation.
-        <br><br>
-        As a consulting group, TNO utilizes a process that captures the expertise within the group.  After a case is presented, those who choose to provide consultation begin with this simple statement, "If this case was mine, it would be about..." This approach utilizes the depth of expertise within the group and creates a broad exchange of ideas and perspectives.
-        <br><br>
-        TNO meets eight times a year, January-June, Sept & October, the second Thursday of the month.
-        <br><br>
-        The group is open-ended. Attendance at every meeting is not a requirement.
-        <br><br>
-        Contact Jane for more information: 603-436-4111
-        <br><br>
         </p>
+        <br><br>
+        <p class="TNO">Meetings typically include socializing, a presentation and discussion led by a colleague, and case consultation.
+        </p>
+        <br><br>
+        <p class="TNO">
+        As a consulting group, TNO utilizes a process that captures the expertise within the group.  After a case is presented, those who choose to provide consultation begin with this simple statement, "If this case was mine, it would be about..." This approach utilizes the depth of expertise within the group and creates a broad exchange of ideas and perspectives.
+        </p>
+        <br><br>
+        <p class="TNO">
+        TNO meets eight times a year, January-June, Sept & October, the second Thursday of the month.
+        </p>
+        <br><br>
+        <p class="TNO">
+        The group is open-ended. Attendance at every meeting is not a requirement.
+        </p>
+        <br><br>
+        <p class="TNO">
+        Contact Jane for more information: 603-436-4111
+        </p>
+        <br><br>
 
         <h3 class="TNOtitle"><b>TNO 202O topics and presenters</b></h3>
         <ul class="TNO">
@@ -123,14 +135,27 @@ function openSocial(){
     document.getElementById("socButton").classList.add("menu__link--active");
 
     document.getElementById("view").innerHTML = `<h1 align="center"><b>Social Determinants of Health</b></h1>
+    <div>
+        <div class="determinants">
+                    <div id="detDescript">
+                        <br><br><br>
+                        <p class="socFacts">According to the World Health Organization, the social determinants of health are the conditions in which people are born, grow, live, work and age. These circumstances are shaped by the distribution of money, power, and resources at global, national, and local levels. Research has demonstrated that up to 70% of the determinants of health are outside of an individual's control. These social determinants impact everyone (click <a href="https://apps.who.int/iris/bitstream/handle/10665/44489/9789241500852_eng.pdf;jsessionid=6B76CA3D474B6CC333C0AF7367E3C1DF?sequence=1" target="_BLANK">here</a> for source).</p>                
+                    </div>
+        
+                    <div>
+                        <br><br><br>
+                        <center><img id="detImage" src="images/determinants.jpg"></center>
+                        <center><p>Pie chart showing the percentage break down of the determinants of health</p></center>
+                    </div>
+        </div>
 
-    <div class="determinants">
-                <div id="detDescript">
-                    <p>According to the World Health Organization, the social determinants of health are the conditions in which people are born, grow, live, work and age. These circumstances are shaped by the distribution of money, power, and resources at global, national, and local levels. Research has demonstrated that up to 70% of the determinants of health are outside of an individual's control. These social determinants impact everyone (click <a href="https://apps.who.int/iris/bitstream/handle/10665/44489/9789241500852_eng.pdf;jsessionid=6B76CA3D474B6CC333C0AF7367E3C1DF?sequence=1" target="_BLANK">here</a> for source).</p>                
-    
-                    <h4>These selected resources are a small representation of the impact of the social determinants of health </h4>
+        <center><h2>These selected resources are a small representation of the impact of the social determinants of health </h4></center>
     
                     <ul>
+                        <li><a target="_BLANK" href="https://www.healthcarefinancenews.com/node/139392">Seriously ill Medicare beneficiaries can face considerable financial hardship</a></li>
+                        <li><a target="_BLANK" href="https://www.centerforhealthjournalism.org">Center for Health Journalism</a></li>
+                        <li><a target="_BLANK" href="https://islivingorgandonationsafe.com">Is Living Organ Donation Safe?</a></li>
+                        <li><a target="_BLANK" href="https://www.eurasiareview.com/19112019-majority-us-parents-cite-socioeconomic-factors-negatively-impact-their-families-health/">Majority US Parents Cite Socioeconomic Factors Negatively Impact Their Families' Health</a></li>
                         <li><a target="_BLANK" href="https://www.politico.com/story/2019/05/20/mike-pence-health-care-1331705">How Mike Pence's 'Indiana mafia' took over health care policy</a></li>
                         <li><a target="_BLANK" href="https://www.youtube.com/watch?v=p3ly8cyWvkw">Where Have All the Flowers Gone? Joan Baez</a></li>
                         <li><a target="_BLANK" href="https://www.youtube.com/watch?v=_SQ4ogstDVE">West Side Story "Somewhere"</a></li>
@@ -184,14 +209,9 @@ function openSocial(){
                         <li><a target="_BLANK" href="https://www.unionleader.com/opinion/columnists/your-turn-nh-jane-zill----deregulation-jeopardizes/article_bab4e5c4-fc1d-54cf-a618-55d28a74591d.html">Deregulation Jeopardizes Transplant Patients</a></li>
                         <li><a target="_BLANK" href="https://www.beckershospitalreview.com/hospital-management-administration/michael-dowling-where-are-healthcare-ceos-in-the-fight-against-gun-violence.html">Michael Dowling: Where are healthcare CEOs in the fight against gun violence?</a></li>
                     </ul>
-                </div>
+    </div>
     
-                <div>
-                    <br><br><br>
-                    <center><img id="detImage" src="images/determinants.jpg"></center>
-                    <center><p>Pie chart showing the percentage break down of the determinants of health</p></center>
-                </div>
-    </div>`;
+    `;
 }
 
 function openSelfHelp(){
@@ -200,7 +220,6 @@ function openSelfHelp(){
     document.getElementById("helpButton").classList.add("menu__link--active");
 
     document.getElementById("view").innerHTML = `<div>
-    <br><br>
     <h1 align="center"><b>Selected Resources for Self Help</b></h1>
     <br>
     <center>
