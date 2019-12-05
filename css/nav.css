@@ -1,8 +1,8 @@
 .menuContainer {
     width: 100%;
     border: none;
-    padding-top:10px;
-    padding-bottom: 70px;
+    padding-top:30px;
+    padding-bottom: 135px;
 }
 
 .center {
@@ -52,8 +52,9 @@
     color: #3a3e47;
     display: inline-block;
     height: 100%;
-    font-size: 20px;
+    font-size: 23px;
     text-decoration: none;
+    font-weight:bold;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -61,11 +62,11 @@
 }
 
 .menu__link:hover {
-    color: #ffaa3b;
+    color: #257751;
 }
 
 .menu__link--active {
-    color: #ffaa3b;
-    border-top: 4px solid #ffaa3b;
+    color: #257751;
+    border-top: 4px solid #257751;
     font-weight: 700;
 }

@@ -5,8 +5,6 @@ function openAbout(){
 
     <h1 align="center" class="title">Jane Zill L.I.C.S.W.</h1>
     <br>
-    <h1 align="center" id="about"><b>About</b></h1>
-    
     <div class="about">
 
     <div id="picDiv">
@@ -16,7 +14,7 @@ function openAbout(){
     <div>
             <p>
             <br>Danish philosopher, Soren Kierkegaard, claimed, "Life can only be understood backwards but must be lived forwards."  I believe the "best" therapy takes advantage of our natural impulse to seek meaning by looking backward and forward, as well as inward and out, in service of a preferred future and a preferred self.<br>
-            <br>I am a Licensed Independent Clinical Social Worker (L.I.C.S.W.) and Certified Clinical Trauma Professional with over 30 years of experience working with individuals and families impacted by illness, disability, and psychosocial and traumatic stress.  I earned a master's degree from the University of Wisconsin-Madison, where I also earned a B.A. in philosophy and a Certificate in Women's Studies. I'm a clinical member of the American Diabetes Association.<br>
+            <br>I'm a Licensed Independent Clinical Social Worker (L.I.C.S.W.) and Certified Clinical Trauma Professional with over 30 years of experience working with individuals and families impacted by illness, disability, and psychosocial and traumatic stress.  I earned a master's degree from the University of Wisconsin-Madison, where I also earned a B.A. in philosophy and a Certificate in Women's Studies. I'm a clinical member of the American Diabetes Association.<br>
             <br>A client's right to self-determination is a core value within the social work profession. I value collaborative therapeutic relationships.<br>
             <br>I welcome the use of story, intuition, art, dreams, and history in therapy, and recognize that community resources are often helpful. I offer EMDR (Eye Movement Desensitization and Reprocessing), clinical hypnosis, and relaxation techniques to treat the effects of traumatic and chronic stress, and I incorporate life-span development, family systems, and social context perspectives. <br>
             <br>Scientific research confirms the importance of a 'person-in-environment' approach when understanding the origins of human problems, as up to 70% of the determinants of health are outside of an individual's control.<br>
