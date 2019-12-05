@@ -145,7 +145,8 @@ function openSocial(){
                     <div>
                         <br><br><br>
                         <center><img id="detImage" src="images/determinants.jpg"></center>
-                        <center><p>Pie chart showing the percentage break down of the determinants of health</p></center>
+                        <center><p><b>Percentage break down of the determinants of health</b></p></center>
+                        <center><p><i>Source: The Center for Health Equity, Minnesota Department of Health</i></p></center>
                     </div>
         </div>
 

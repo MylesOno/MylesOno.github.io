@@ -1,6 +1,8 @@
 .menuContainer {
     width: 100%;
     border: none;
+    padding-top:10px;
+    padding-bottom: 70px;
 }
 
 .center {
